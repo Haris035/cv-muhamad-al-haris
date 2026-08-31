@@ -10,25 +10,22 @@ export const metadata: Metadata = {
     "Website portfolio pribadi Muhamad Al Haris — Graphic Designer, Vibe Coder, dan mahasiswa Pendidikan Agama Islam.",
 
   openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: "https://cvmuhamadalharis.my.id",
+    siteName: "Muhamad Al Haris",
+
     title: "Muhamad Al Haris | Graphic Designer & Vibe Coder",
 
     description:
       "Portfolio pribadi Muhamad Al Haris — Graphic Designer, Vibe Coder, dan mahasiswa Pendidikan Agama Islam.",
 
-    url: "https://cvmuhamadalharis.my.id",
-
-    siteName: "Muhamad Al Haris",
-
-    locale: "id_ID",
-
-    type: "website",
-
     images: [
       {
-        url: "/og-image/og-image.jpg",
+        url: "https://cvmuhamadalharis.my.id/og-image/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Muhamad Al Haris — Graphic Designer & Vibe Coder",
+        alt: "Muhamad Al Haris | Graphic Designer & Vibe Coder",
       },
     ],
   },
@@ -41,7 +38,9 @@ export const metadata: Metadata = {
     description:
       "Portfolio pribadi Muhamad Al Haris — Graphic Designer, Vibe Coder, dan mahasiswa Pendidikan Agama Islam.",
 
-    images: ["/og-image/og-image.jpg"],
+    images: [
+      "https://cvmuhamadalharis.my.id/og-image/og-image.jpg",
+    ],
   },
 
   icons: {
