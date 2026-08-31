@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cvmuhamadalharis.my.id"),
+  metadataBase: new URL("https://www.cvmuhamadalharis.my.id"),
 
   title: "Muhamad Al Haris | Graphic Designer & Vibe Coder",
 
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://cvmuhamadalharis.my.id",
+    url: "https://www.cvmuhamadalharis.my.id",
     siteName: "Muhamad Al Haris",
 
     title: "Muhamad Al Haris | Graphic Designer & Vibe Coder",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "https://cvmuhamadalharis.my.id/og-image/og-image.jpg",
+        url: "https://www.cvmuhamadalharis.my.id/og-image/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Muhamad Al Haris | Graphic Designer & Vibe Coder",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
       "Portfolio pribadi Muhamad Al Haris — Graphic Designer, Vibe Coder, dan mahasiswa Pendidikan Agama Islam.",
 
     images: [
-      "https://cvmuhamadalharis.my.id/og-image/og-image.jpg",
+      "https://www.cvmuhamadalharis.my.id/og-image/og-image.jpg",
     ],
   },
 
