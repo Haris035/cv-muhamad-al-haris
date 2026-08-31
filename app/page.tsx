@@ -519,30 +519,10 @@ export default function Home() {
             </div>
 
             {/* HERO VISUAL */}
-            <div className="relative mx-auto w-full max-w-sm lg:max-w-md">
+            {/* HERO VISUAL */}
+            <div className="relative hidden lg:block">
               <div className="relative mx-auto aspect-square max-w-md">
-                {/* MOBILE PROFILE PHOTO */}
-                <div className="mb-10 flex justify-center lg:hidden">
-                  <div className="relative h-72 w-56 overflow-hidden rounded-[2rem] border border-blue-500/30 bg-slate-900 shadow-2xl shadow-blue-950/40">
-                    <img
-                      src="/profile/haris.jpeg"
-                      alt="Muhamad Al Haris"
-                      className="h-full w-full object-cover object-[center_20%]"
-                    />
 
-                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent" />
-
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-blue-400">
-                        Muhamad Al Haris
-                      </p>
-
-                      <p className="mt-1 text-xs font-semibold text-white">
-                        Graphic Designer × Vibe Coder
-                      </p>
-                    </div>
-                  </div>
-                </div>
                 {/* OUTER FRAME */}
                 <div className="absolute inset-0 rotate-6 rounded-[3rem] border border-blue-500/20 bg-blue-500/5" />
 
